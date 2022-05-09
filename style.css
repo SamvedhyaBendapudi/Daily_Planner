@@ -1,0 +1,26 @@
+body {
+    background: #3e5c76;
+}
+
+.container {
+    max-width: 400px;
+}
+
+input[type=text], input[type=text]:focus {
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px; 
+}
+
+.todos li {
+    background: #748cab;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: rgba(42, 56, 72, 0.2);
+}
